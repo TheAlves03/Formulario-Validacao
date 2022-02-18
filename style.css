@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e7e5e5;
+  display: flex;
+  font-family: Poppins;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  border: 0;
+}
+
+.container {
+  background-color: #1d0436;
+  border-radius: 5px;
+  border: 2px solid #0a1d47;
+  width: 450px;
+  max-width: 100%;
+}
+
+.header {
+  padding: 30px 40px;
+}
+
+.header h2 {
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.form {
+  padding: 0 40px 30px;
+}
+
+.controle {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.controle label {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #e2e2e2;
+}
+
+.controle input {
+  border: 2px solid #0b215a;
+  border-radius: 5px;
+  outline: 0;
+  display: block;
+  font-size: 14px;
+  width: 100%;
+  padding: 15px;
+  background: rgb(243, 243, 243);
+  font-size: 1rem;
+}
+
+.controle i {
+  position: absolute;
+  top: 45px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.controle small {
+  visibility: hidden;
+  position: absolute;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.form button {
+  background-color: #1fe66f;
+  border-radius: 5px;
+  color: #fff;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  width: 100%;
+  border: 0;
+  margin-top: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.form button:hover {
+  background-color: #45e685;
+  transition: 0.6;
+  letter-spacing: 1.5px;
+}
